@@ -1,0 +1,42 @@
+/*variáveis são contêineres para armazenar valores de dados.
+Exixtem alguns tipos de variáveis:
+
+int é usado para armazenar numeros inteiros como 1,2,3,4,5... ou -1,-2,-3,-4,-5...
+double é usado armazenar numeros decimais como 1,5 ou -1,5.
+char é usado para armazena caracteres únicos, como 'a' ou 'B'. Os valores de caractere são cercados por aspas simples.
+string é usado para armazenar texto. 
+bool armazena valores com dois estados: verdadeiro ou falso.
+
+Definir o valor que deseja armazenar na variavel pode ser na mesma linha que ela foi criada " int n1 = 4 " a variável n1 tem como o valor 4
+"string nome1 = "João" " a variável nome1 tem como texto João*/
+
+string name = "João";
+Console.WriteLine(name);
+
+int myNum = 10;
+Console.WriteLine(myNum);
+
+//Pode-se também definir variável depois de cria-la
+
+int myNum;
+myNum = 10;
+Console.WriteLine(myNum);
+
+//pode também juntar nomes se a variável for string
+
+string nome = "João ";
+string sobrenome = "Henrique";
+string nomeCompleto = nome + sobrenome;
+Console.WriteLine(nomeCompleto);
+//ficaria então João + Henrique = João Henrique
+//percebi-se que exixte um espaço após o o texto João na definição do valor da variável, porque se não o texto ficará junto como "JoãoHenrique"
+
+// em relação a variável é int quando usamos o + tem ai uma operação matemática 
+
+int n1 = 5;
+int n2 = 6;
+Console.WriteLine(x + y);
+//ficaria então 5 + 6 = 11
+
+/* todas as variáveis devem ter nomes exclusivos não podem ter o mesmo nome que a outra, são chamados identificadores os nomes dados , como no exemplo anterioa os identificadores são n1 e n2 
+
