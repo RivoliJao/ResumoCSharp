@@ -1,4 +1,21 @@
-Na linguagem do c#a primeira linha "using System" que é referente que podemos usar classes do System.
-Namespace é um espaço onde se usa para uma melhora na organização do código, onde podemos selecionar classes e até mesmo criar outros namespace. Para a definição desses espaços usamos a "{}" como começo e fim.
-exemplo:
-namespace Intruducao.
+/*Na linguagem do c# a primeira linha "using System" podemos dizer que seja a inicialização do sistema.
+.Namespace é um espaço onde se usa para uma melhora na organização do código, onde podemos selecionar classes e até mesmo criar outros namespace. 
+.Para definir o começo de o fim desses espaços usamos a "{}".
+.Cada linha de código de C# tem que terminar com ";".
+.Como eu disse dentro da namespace podemos selecionar classes.
+.Assim como tem a relação da namespace com a classe, os comandos de C# devem estar dentro de uma classe
+.Um comando básico é o "Console.Whiteline("Bom Dia");" que irá mostrar no prompt de comando a seguinte frase "Bom dia", todo texto de desejamos mostrar no C# devemos colocar ele entre " " */
+using System
+{
+    namespace Intruducao
+    {
+        class Program
+        {
+            Console.Whiteline("Bom Dia");
+        }
+    } 
+}
+/*Esse comando "Console.Whiteline();" pode ser usado não apenas para mostrar algo escrito, mas também podendo fazer algumas contas , por exemplo se o comando for escrito desta forma "Console.Whiteline(3+5);" ele ira mostrar no prompt de comando o resultado da soma.
+.Outra variavel deste comando é "Console.White();" o que muda é que ao inves dele pular uma linha ele vai escrever oque deseja na mesma linha.
+.Para fazermos comentários como esses temos dois jeitos um deles é no começo de cada linha usarmos o "//" e o outro jeito é definindo o começo e o fim do comentário "/* comentário que deseja inserir */
+
