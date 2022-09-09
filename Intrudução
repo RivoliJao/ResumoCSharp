@@ -1,0 +1,4 @@
+Na linguagem do c#a primeira linha "using System" que é referente que podemos usar classes do System.
+Namespace é um espaço onde se usa para uma melhora na organização do código, onde podemos selecionar classes e até mesmo criar outros namespace. Para a definição desses espaços usamos a "{}" como começo e fim.
+exemplo:
+namespace Intruducao.
